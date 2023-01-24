@@ -1,0 +1,17 @@
+.container, .counter, .wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    flex-direction: row;
+}
+
+.counter {
+    height: 100vh;
+    flex-direction: column;
+}
+
+button {
+    font-size: medium;
+}
